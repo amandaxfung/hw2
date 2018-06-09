@@ -3,8 +3,7 @@ const router = express.Router()
 
 const mongoose = require('mongoose')
 
-const Schema = mongoose.Schema
-const stringSchema = new Schema({
+const stringSchema = new mongoose.Schema({
     string: String,
     length: Number
 })
